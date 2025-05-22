@@ -1,6 +1,5 @@
 import React from "react";
 import "./Hero.css";
-import resume from "./Resume/Sample Resume.pdf";
 import profile_img from "../../assets/profile_img1.jpg";
 const Hero = () => {
   return (
@@ -23,10 +22,7 @@ const Hero = () => {
           <a href="#contact">Connect With Me</a>
         </div>
         <div className="hero-resume">
-          <a href={resume} download="Bharath_Resume.pdf">
-            {" "}
-            My Resume
-          </a>
+          <a href={resume} download="Bharath_Resume.pdf"></a>
         </div>
       </div>
     </div>
