@@ -1,0 +1,89 @@
+/* Projects.css */
+
+.projects-section {
+  padding: 45px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.projects-title {
+  font-size: 80px;
+  font-weight: 600;
+  padding: 0px 30px;
+  margin-bottom: 40px;
+}
+
+.projects-subtitle {
+  font-size: 1rem;
+  color: #cbd5e1;
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.project-card {
+  background-color: #111e36;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 100%;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+  border: 2px solid white;
+  box-shadow: 0 6px 20px rgba(0, 13, 255, 0.7);
+}
+
+.project-img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-bottom: 1px solid #1e293b;
+}
+
+.project-content {
+  padding: 1.2rem;
+}
+
+.project-name {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.project-desc {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  margin-bottom: 1.2rem;
+  line-height: 1.5;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project-btn {
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  background: #00d8ff;
+  color: #011627;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.project-btn:hover {
+  background: #00b5d6;
+}

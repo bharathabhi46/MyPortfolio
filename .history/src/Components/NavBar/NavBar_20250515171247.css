@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 170px; /*top and bottom, left and right*/
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+  color: #e0e0e0; /* light gray for modern subtle text */
+}
+
+.nav-connect {
+  padding: 17px 36px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #6a11cb 0.36%, #2575fc 102.06%);
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #fff; /* white text */
+  box-shadow: 0 4px 15px rgba(37, 117, 252, 0.4);
+}
+
+.nav-connect:hover {
+  transform: scale(1.05);
+  background: linear-gradient(267deg, #2575fc 0.36%, #6a11cb 102.06%);
+  box-shadow: 0 6px 20px rgba(106, 17, 203, 0.6);
+}
+.hero img {
+  margin-top: 150px;
+}
+.hero h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 90px;
+}

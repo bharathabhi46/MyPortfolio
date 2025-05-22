@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: white;
+  font-family: Outfit, sans-serif;
+}

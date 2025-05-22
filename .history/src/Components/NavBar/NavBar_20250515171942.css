@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 170px; /*top and bottom, left and right*/
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+  color: #e0e0e0; /* light gray for modern subtle text */
+}
+
+.nav-connect {
+  padding: 17px 36px;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(118, 75, 162, 0.4);
+}
+
+.nav-connect:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}

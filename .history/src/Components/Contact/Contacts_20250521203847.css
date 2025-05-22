@@ -1,0 +1,115 @@
+body {
+  background-color: #0f172a;
+  color: white;
+}
+
+.contact-container {
+  padding: 2rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.contact-title {
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.contact-subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+.simple-hr {
+  width: 120px;
+  height: 3px;
+  background-color: #ff4ec7; /* or any color matching your theme */
+  border: none;
+  margin: 0 auto;
+  border-radius: 2px;
+  margin-bottom: 40px;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem; /* Increased gap */
+  justify-content: space-between;
+}
+
+.social-boxes {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.social-card {
+  background: #1e293b;
+  border-radius: 15px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.1);
+  transition: transform 0.3s;
+}
+
+.social-card:hover {
+  transform: translateY(-5px);
+}
+
+.social-logo {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+  object-fit: contain;
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.2));
+}
+
+.glow-btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background: linear-gradient(135deg, #6366f1, #7c3aed);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(124, 58, 237, 0.4);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.glow-btn:hover {
+  transform: scale(1.05);
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #1e293b;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.1);
+}
+
+.contact-form label {
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+  color: #e2e8f0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: white;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}

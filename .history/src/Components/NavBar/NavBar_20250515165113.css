@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 170px; /*top and botton left and right*/
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+}
+.nav-connect {
+  padding: 17px 36px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #cf7a2a 0.36%, #7e189b 102.06%);
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.nav-connect:hover {
+  transform: scale(1.05);
+}

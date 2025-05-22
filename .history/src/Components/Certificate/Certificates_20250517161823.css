@@ -1,0 +1,70 @@
+.certificates {
+  padding: 3rem 2rem;
+  background-color: #0a192f;
+  color: white;
+  text-align: center;
+}
+
+.certificates h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-items: center;
+  align-items: start;
+}
+
+.certificate-card {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 16px;
+  overflow: hidden;
+  max-width: 500px;
+  width: 100%;
+  text-align: left;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 transparent;
+  cursor: pointer;
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+}
+
+.certificate-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 1px solid #222;
+}
+
+.certificate-info {
+  padding: 1rem;
+}
+
+.certificate-info h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.certificate-info p {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .certificates-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .certificate-card img {
+    height: 200px;
+  }
+}

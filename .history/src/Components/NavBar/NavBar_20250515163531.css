@@ -1,0 +1,6 @@
+.navbar {
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 170px;
+}
