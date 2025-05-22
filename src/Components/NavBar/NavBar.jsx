@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./NavBar.css";
-import logo from "../../assets/portLogo3.png";
+import logo from "../../assets/PortLogo3.png";
 
 const NavBar = () => {
   const connectRef = useRef(null);
