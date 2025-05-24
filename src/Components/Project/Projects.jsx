@@ -13,7 +13,7 @@ const listOfProjects = [
     githubUrl: "https://github.com/bharathabhi46/Mapty-Project",
   },
   {
-    title: "Bank App",
+    title: "Bank Project",
     description:
       "Basic banking app with transaction history and authentication.",
     image: BankApp,
@@ -21,7 +21,7 @@ const listOfProjects = [
     githubUrl: "https://github.com/bharathabhi46/Bank-App",
   },
   {
-    title: "Forkify App",
+    title: "Forkify Project",
     description:
       "Recipe app that fetches recipes from an API with search & bookmarks.",
     image: ForkifyApp,
