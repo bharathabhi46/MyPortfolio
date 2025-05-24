@@ -22,7 +22,7 @@ const Contacts = () => {
             <h3>LinkedIn</h3>
             <p className="para">Connect with me professionally.</p>
             <a
-              href="https://www.linkedin.com/in/bharath-balne-9989a5296/"
+              href="https://www.linkedin.com/in/bharath-abhinav-balne-9989a5296/"
               target="_blank"
               rel="noreferrer"
             >
