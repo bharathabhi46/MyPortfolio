@@ -6,12 +6,12 @@ import profile_img from "../../assets/profile_img1.jpg";
 const Hero = () => {
   return (
     <div className="hero">
-      <div class="profile-wrapper">
+      <div className="profile-wrapper">
         <img src={profile_img} alt="Bharath Abhinav" />
       </div>
 
       <h1>
-        <span>I’m Bharath Abhinav Balne,</span> a ServiceNow CAD and CSA
+        <span>I'm Bharath Abhinav Balne,</span> a ServiceNow CAD and CSA
       </h1>
       <p>
         MERN Stack Developer | Proficient in JavaScript & React | Strong DSA in

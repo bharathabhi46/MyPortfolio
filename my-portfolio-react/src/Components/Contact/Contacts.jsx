@@ -11,7 +11,7 @@ const Contacts = () => {
       <p className="contact-subtitle">
         I'm always open to meaningful conversations, collaborations, or
         opportunities. Feel free to drop a message or connect with me through
-        any of the platforms below — let’s build something great together.
+        any of the platforms below - let's build something great together.
       </p>
 
       <div className="contact-content">
